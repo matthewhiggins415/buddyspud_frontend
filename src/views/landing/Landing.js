@@ -6,7 +6,7 @@ import { useNavigate } from "react-router-dom";
 const Landing = ({ user }) => {
   const navigate = useNavigate();
 
-  const wordArr = ['sucky', 'sh*tty', 'lazy', 'greedy', 'pests', 'mean', 'lame', 'dumb', 'cruel', 'rude', 'selfish'];
+  // const wordArr = ['sucky', 'sh*tty', 'lazy', 'greedy', 'pests', 'mean', 'lame', 'dumb', 'cruel', 'rude', 'selfish'];
 
   useEffect(() => {
     sessionStorage.clear();
