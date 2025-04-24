@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Container, Form, Input, SectionContainer, TextArea, ImgContainer, SubmitBtn } from './OrderInfo.styles';
+import { Container, Form, Input, SectionContainer, TextArea, SubmitBtn } from './OrderInfo.styles';
 import { useNavigate } from "react-router-dom";
 
 const OrderInfo = ({ user, setOrder }) => {
@@ -34,9 +34,6 @@ const OrderInfo = ({ user, setOrder }) => {
   
   return (
     <Container> 
-      <ImgContainer>
-          
-      </ImgContainer>
       <Form onSubmit={handleSubmit}>
         <SectionContainer>
           <p>Potato Recipient Info</p>

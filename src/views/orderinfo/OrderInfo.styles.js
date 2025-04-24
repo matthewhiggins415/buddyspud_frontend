@@ -69,19 +69,7 @@ export const TextArea = styled.textarea`
   font-size: 16px;
   background-color: #fcfffd;
 `
-export const ImgContainer = styled.div`  
-  background-image: url(${hotPotato});
-  background-position: center;
-  width: 500px;
-  height: 400px;
-  background-repeat: no-repeat;
 
-  @media (max-width: 768px) {
-    width: 95%;
-    background-size: contain;
-    height: 220px;
-}
-`
 export const SubmitBtn = styled.button`
   width: 80%;
   padding: 10px;
